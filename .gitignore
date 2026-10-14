@@ -1,0 +1,41 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# next.js build
+/.next/
+/out/
+next-env.d.ts
+
+# environment (berisi password database, JANGAN di-commit)
+.env
+.env.*
+!.env.example
+
+# backup database (berisi seluruh data perusahaan)
+/backups/
+*.backup
+*.dump
+*.sql.gz
+
+# drizzle (hasil generate)
+/drizzle/
+
+# logs & debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# misc
+*.pem
+*.tsbuildinfo
+.vercel
